@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Suggester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="container">
+            <h1>Movie Suggester</h1>
+
+            <label for="mood-selector">How are you feeling? </label>
+            <select id="mood-selector">
+                <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="excited">Excited</option>
+                <option value="calm">Calm</option>
+            </select>
+
+            <div id="movie-display"></div>
+
+            <button id="suggest-button" onclick="suggestMovie()">Get Suggestion</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
